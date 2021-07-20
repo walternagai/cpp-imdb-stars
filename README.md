@@ -1,5 +1,15 @@
 # cpp-imdb-stars
 
+O [https://www.imdb.com/](IMDB) é um conhecido serviço Web que cataloga filmes e classifica em estrelas quanto a percepção de seus usuáriios.
+
+O programa imdb-stars tem duas estruturas (registros) bem distintas:
+* **Movie** - uma estrutura que tem três campos: idMovie (número único de identificação de um filme), title (título do filme) e year (ano de lançamento do filme);
+* **Opinions** - uma estrutura que tem dois campos: idMovie (o mesmo número único de identificação de um filme da estrutura Movie) e stars (vetor de tamanho MAX_OPINIONS com o número de estrelas de cada usuário).
+
+Escreva o código da função **calculateStars** que calcule a média de estrelas recebida para cada filme.
+
+Observe a saída esperada do programa.
+
 Confira se o repositório está criado em alguma das organizações GitHub:
 * [https://github.com/p7-m7-ecoi02-2021-1](https://github.com/p7-m7-ecoi02-2021-1)
 * [https://github.com/p8-m7-ecoi02-2021-1](https://github.com/p8-m7-ecoi02-2021-1)
