@@ -1,6 +1,6 @@
 # cpp-imdb-stars
 
-O [https://www.imdb.com/](IMDB) é um conhecido serviço Web que cataloga filmes e classifica em estrelas quanto a percepção de seus usuáriios.
+O [IMDB](https://www.imdb.com/) é um conhecido serviço Web que cataloga filmes e classifica em estrelas quanto a percepção de seus usuáriios.
 
 O programa imdb-stars tem duas estruturas (registros) bem distintas:
 * **Movie** - uma estrutura que tem três campos: idMovie (número único de identificação de um filme), title (título do filme) e year (ano de lançamento do filme);
